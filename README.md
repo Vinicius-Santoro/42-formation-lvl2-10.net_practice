@@ -4,8 +4,6 @@ Project 10: net_pratice - Tenth project for the formation of software engineers 
 
 - This project is a general practical exercise to let discover networking.
 
-## This project was like this:
-
 ## Sumary
 
 #### Necessary concepts
