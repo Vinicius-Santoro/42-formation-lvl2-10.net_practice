@@ -4,7 +4,7 @@
 ⬅ [level 06](https://github.com/Vinicius-Santoro/42-formation-lvl2-10.net_pratice/blob/main/readmes/level06.md) &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; [level 07](https://github.com/Vinicius-Santoro/42-formation-lvl2-10.net_pratice/blob/main/readmes/level08.md) ➡
 <h1></h1>
 
-### _This is `level 07`:_
+### _This is `level 07`_
 
 ### _Task_
 - Developing...
