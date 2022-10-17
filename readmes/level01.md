@@ -5,7 +5,7 @@
 
 <h1></h1>
 
-### _This is `level 01`:_
+### _This is `level 01`_
 
 ### _Task_
 - Developing...
