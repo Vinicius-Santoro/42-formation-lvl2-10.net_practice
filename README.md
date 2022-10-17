@@ -1,4 +1,5 @@
-# 42-formation-lvl2-9.philosophers
+# 42-formation-lvl2-10.net_pratice
+
 Project 10: net_pratice - Tenth project for the formation of software engineers at school 42 São Paulo.
 
 - This project is a general practical exercise to let discover networking.
