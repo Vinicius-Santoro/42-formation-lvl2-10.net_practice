@@ -10,8 +10,10 @@ Project 10: net_pratice - Tenth project for the formation of software engineers 
 
 Some necessary concepts to develop this project.
 
-- [What is the ](readmes/necessary_concepts.md)
-
+- [What is modem?](readmes/necessary_concepts.md)
+- [What is hub?](readmes/necessary_concepts.md)
+- [What is router?](readmes/necessary_concepts.md)
+- [What is switch?](readmes/necessary_concepts.md)
 
 #### Useful links:
 
