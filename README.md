@@ -24,8 +24,6 @@ Links I used to develop the project
 - [Método de Endereçamento IP baseado nas Classes](https://www.youtube.com/watch?v=Yt_MMkzIiOk&ab_channel=FelipeSoaresdeOliveira)
 - [Entendendo o endereçamento IP](https://www.hardware.com.br/livros/linux-redes/capitulo-entendendo-enderecamento.html)
 - [Subrede IP: máscaras possíveis para classes A, B e C](http://www.dltec.com.br/blog/redes/subrede-ip-mascaras-possiveis-e-quantidades-para-classes-a-b-e-c-curso-ccna/)
-- [Configuração de roteamento estático](https://www.youtube.com/watch?v=HjMBWPyLk3U&ab_channel=SamuelHenriqueBuckeBrito)
-- [Roteamento estático e rota default](https://www.youtube.com/watch?v=EZc4xUtfd6Y&t=98s&ab_channel=GustavoKalau)
 - [Cálculo de sub-rede TCP/IPv4](https://www.youtube.com/watch?v=GGmhv1Wz6fc)
 - [IP subnet calculator](https://www.calculator.net/ip-subnet-calculator.html?cclass=c&csubnet=25&cip=6.120.49.126&ctype=ipv4&printit=0&x=90&y=17)
 
