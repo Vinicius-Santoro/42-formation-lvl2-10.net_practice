@@ -6,6 +6,7 @@
 
 ### _This is `level 02`:_
 
+![level02_unsolved](https://user-images.githubusercontent.com/83036509/200188665-5eb0f947-5521-4d5b-89ad-d2cc3b3b00a3.png)
 
 
 ### _Goal 1: Computer B need to communicate with Computer A._
@@ -23,30 +24,48 @@ todas as redes, hosts e broadcasts possíveis.
         </tr>
         <tr>
             <td align="center">192.168.124.<strong>0</strong></td>
+            <td align="center">192.168.124.<strong>1</strong> até 192.168.124.<strong>30</strong></td>
+            <td align="center">192.168.124.<strong>31</strong></td>
         </tr>
          <tr>
             <td align="center">192.168.124.<strong>32</strong></td>
+            <td align="center">192.168.124.<strong>33</strong> até 192.168.124.<strong>62</strong></td>
+            <td align="center">192.168.124.<strong>63</strong></td>
         </tr>
          <tr>
             <td align="center">192.168.124.<strong>64</strong></td>
+            <td align="center">192.168.124.<strong>65</strong> até 192.168.124.<strong>94</strong></td>
+            <td align="center">192.168.124.<strong>95</strong></td>
         </tr>
         <tr>
             <td align="center">192.168.124.<strong>96</strong></td>
+            <td align="center">192.168.124.<strong>97</strong> até 192.168.124.<strong>126</strong></td>
+            <td align="center">192.168.124.<strong>127</strong></td>
         </tr>
         <tr>
-            <td align="center">192.168.124.<strong>128</strong></td>
+            <td align="center">192.168.124.128</td>
+            <td align="center">192.168.124.129 até 192.168.124.158</td>
+            <td align="center">192.168.124.159</td>
         </tr>
         <tr>
-            <td align="center">192.168.124.<strong>160</strong></td>
+            <td align="center">192.168.124.160</td>
+            <td align="center">192.168.124.161 até 192.168.124.190</td>
+            <td align="center">192.168.124.191</td>
         </tr>
         <tr>
-            <td align="center">192.168.124.<strong>192</strong></td>
-        </tr>
-        <tr>
-            <td align="center">192.168.124.<strong>224</strong></td>
+            <td align="center">192.168.124.160</td>
+            <td align="center">192.168.124.129 até 192.168.124.158</td>
+            <td align="center">192.168.124.159</td>
         </tr>
          <tr>
-            <td align="center">192.168.124.<strong>224</strong></td>
+            <td align="center">192.168.124.192</td>
+            <td align="center">192.168.124.193 até 192.168.124.222</td>
+            <td align="center">192.168.124.223</td>
+        </tr>
+         <tr>
+            <td align="center">192.168.124.224</td>
+            <td align="center">192.168.124.225 até 192.168.124.254</td>
+            <td align="center">192.168.124.255</td>
         </tr>
     </thead>
 </table>
@@ -54,10 +73,11 @@ todas as redes, hosts e broadcasts possíveis.
 <h1></h1>
 
 ### _Goal 2: My Mac need to communicate with my little sister's computer._
--  O cliente A e o cliente B possuem a mesma máscara de Classe B.
-- A interface C1 possui o IP 211.191.`126.75`, com isso podemos gerar a tabela de
-todas as redes, hosts e broadcasts possíveis.
-- Para sabermos o intervalo de cada subrede, precisamos calcular o salto, que é (256 - (octeto misto)). Como não há octeto misto, essa rede possui um único intervalo, sendo de 0.1, até 255.254.
+-  O cliente C e o cliente D possuem a mesma máscara de Classe C. O `/30`é a notação da máscara `255.255.255.252`.
+- Como nenhuma interface possui IP fixo, podemos criar de acordo com a tabela de
+todas as redes, hosts e broadcasts possíveis. Vamo usar o IP 192.168.10.1 para o exemplo.
+- Para sabermos o intervalo de cada subrede, precisamos calcular o salto, que é (256 - (octeto misto)). Ou seja, 256 - 252 = 4.
+- Teremos 64 redes disponíveis para o IP: 192.168.10.* 
 <table>
     <thead>
         <tr>
@@ -65,14 +85,32 @@ todas as redes, hosts e broadcasts possíveis.
             <td align="center"><strong>Host</strong></td>
             <td align="center"><strong>Broadcast</strong></td>
         </tr>
-        <tr>
-            <td align="center">211.191.<strong>0.0</strong></td>
-            <td align="center">211.191.<strong>0.1</strong> até 211.191.<strong>255.254</strong></td>
-            <td align="center">211.191.<strong>255.255</strong></td>
+         <tr>
+            <td align="center">192.168.10.0</td>
+            <td align="center">	192.168.10.1 - 192.168.10.2</td>
+            <td align="center">192.168.10.3</td>
+        </tr>
+         <tr>
+            <td align="center">192.168.10.4</td>
+            <td align="center">192.168.10.5 - 192.168.10.6</td>
+            <td align="center">192.168.10.7</td>
+        </tr>
+         <tr>
+            <td align="center">...</td>
+            <td align="center">... - ...</td>
+            <td align="center">...</td>
+        </tr>
+         <tr>
+            <td align="center">192.168.10.248</td>
+            <td align="center">192.168.10.249 - 192.168.10.250</td>
+            <td align="center">192.168.10.251</td>
+        </tr>
+         <tr>
+            <td align="center">192.168.10.252</td>
+            <td align="center">192.168.10.253 - 192.168.10.254</td>
+            <td align="center">192.168.10.255</td>
         </tr>
     </thead>
 </table>
 
-![level01_solved](https://user-images.githubusercontent.com/83036509/200187248-16a74205-b3de-48ef-817b-c772b1eb6e00.png)
-
-
+![level02_solved](https://user-images.githubusercontent.com/83036509/200188824-e35810fb-710a-465c-92bc-c07609bbf625.png)
