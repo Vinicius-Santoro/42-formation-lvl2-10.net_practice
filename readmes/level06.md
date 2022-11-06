@@ -6,6 +6,8 @@
 
 ### _This is `level 06`:_
 
+![level06_unsolved](https://user-images.githubusercontent.com/83036509/200199432-0576ccdb-0068-4076-ac1a-b01f4afb6825.png)
+
 <h1></h1>
 
 ### _Goal 1: Interface A1 need to communicate with interface Somewhere on the Net._
@@ -37,4 +39,5 @@
 - No `gateway` do `cliente A`, configuraremos o IP com o próximo ponto do cliente, neste caso, o IP da `interface R1`. O default tem a funcionalidade de 'a partir deste dispositivo'.
 - Como o `Interface A1` possui IP fixo, temos que utilizar o intervalo `120.177.255.129 - 120.177.255.254` na `interface R1`.
  No `gateway` do `internet`, configuraremos com o IP da rede da `interface R1`, ou seja, `120.177.255.0/16`, especificando a máscara `/16`.
-
+ 
+ ![level06_solved](https://user-images.githubusercontent.com/83036509/200199381-adc8e0af-3cc3-4bf7-a03f-500e16f75c09.png)
