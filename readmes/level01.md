@@ -19,14 +19,14 @@ todas as redes, hosts e broadcasts possíveis.
 <table>
     <thead>
         <tr>
-            <td align="center"><strong>Rede</strong></td>
-            <td align="center"><strong>Host</strong></td>
-            <td align="center"><strong>Broadcast</strong></td>
+            <td align="center">Rede</td>
+            <td align="center">Host</td>
+            <td align="center">Broadcast</td>
         </tr>
         <tr>
-            <td align="center">104.96.23.<strong>0</strong></td>
-            <td align="center">104.96.23.<strong>1</strong> até 104.96.23.<strong>254</strong></td>
-            <td align="center">104.96.23.<strong>255</strong></td>
+            <td align="center">104.96.23.0</td>
+            <td align="center">104.96.23.1 até 104.96.23.254</td>
+            <td align="center">104.96.23.255</td>
         </tr>
     </thead>
 </table>
@@ -41,14 +41,14 @@ todas as redes, hosts e broadcasts possíveis.
 <table>
     <thead>
         <tr>
-            <td align="center"><strong>Rede</strong></td>
-            <td align="center"><strong>Host</strong></td>
-            <td align="center"><strong>Broadcast</strong></td>
+            <td align="center">Rede</td>
+            <td align="center">Host</td>
+            <td align="center">Broadcast</td>
         </tr>
         <tr>
-            <td align="center">211.191.<strong>0.0</strong></td>
-            <td align="center">211.191.<strong>0.1</strong> até 211.191.<strong>255.254</strong></td>
-            <td align="center">211.191.<strong>255.255</strong></td>
+            <td align="center">211.191.0.0</td>
+            <td align="center">211.191.0.1 até 211.191.255.254</td>
+            <td align="center">211.191.255.255</td>
         </tr>
     </thead>
 </table>

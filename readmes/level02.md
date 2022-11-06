@@ -18,29 +18,29 @@ todas as redes, hosts e broadcasts possíveis.
 <table>
     <thead>
         <tr>
-            <td align="center"><strong>Rede</strong></td>
-            <td align="center"><strong>Host</strong></td>
-            <td align="center"><strong>Broadcast</strong></td>
+            <td align="center">Rede</td>
+            <td align="center">Host</td>
+            <td align="center">Broadcast</td>
         </tr>
         <tr>
-            <td align="center">192.168.124.<strong>0</strong></td>
-            <td align="center">192.168.124.<strong>1</strong> até 192.168.124.<strong>30</strong></td>
-            <td align="center">192.168.124.<strong>31</strong></td>
+            <td align="center">192.168.124.0</td>
+            <td align="center">192.168.124.1 até 192.168.124.30</td>
+            <td align="center">192.168.124.31</td>
         </tr>
          <tr>
-            <td align="center">192.168.124.<strong>32</strong></td>
-            <td align="center">192.168.124.<strong>33</strong> até 192.168.124.<strong>62</strong></td>
-            <td align="center">192.168.124.<strong>63</strong></td>
+            <td align="center">192.168.124.32</td>
+            <td align="center">192.168.124.33 até 192.168.124.62</td>
+            <td align="center">192.168.124.63</td>
         </tr>
          <tr>
-            <td align="center">192.168.124.<strong>64</strong></td>
-            <td align="center">192.168.124.<strong>65</strong> até 192.168.124.<strong>94</strong></td>
-            <td align="center">192.168.124.<strong>95</strong></td>
+            <td align="center">192.168.124.64</td>
+            <td align="center">192.168.124.65 até 192.168.124.94</td>
+            <td align="center">192.168.124.95</td>
         </tr>
         <tr>
-            <td align="center">192.168.124.<strong>96</strong></td>
-            <td align="center">192.168.124.<strong>97</strong> até 192.168.124.<strong>126</strong></td>
-            <td align="center">192.168.124.<strong>127</strong></td>
+            <td align="center">192.168.124.96</td>
+            <td align="center">192.168.124.97 até 192.168.124.126</td>
+            <td align="center">192.168.124.127</td>
         </tr>
         <tr>
             <td align="center">192.168.124.128</td>
@@ -81,9 +81,9 @@ todas as redes, hosts e broadcasts possíveis. Vamo usar o IP 192.168.10.1 para 
 <table>
     <thead>
         <tr>
-            <td align="center"><strong>Rede</strong></td>
-            <td align="center"><strong>Host</strong></td>
-            <td align="center"><strong>Broadcast</strong></td>
+            <td align="center">Rede</td>
+            <td align="center">Host</td>
+            <td align="center">Broadcast</td>
         </tr>
          <tr>
             <td align="center">192.168.10.0</td>
