@@ -6,11 +6,7 @@
 
 ### _This is `level 03`:_
 
-![level02_unsolved](https://user-images.githubusercontent.com/83036509/200188665-5eb0f947-5521-4d5b-89ad-d2cc3b3b00a3.png)
-
-### _Goal 1: Host A need to communicate with Host B._
-### _Goal 2: Host A need to communicate with Host C._
-### _Goal 3: Host B need to communicate with Host C._
+![level03_unsolved](https://user-images.githubusercontent.com/83036509/200192523-aabd0b76-8e0b-4e0a-a267-5015831e1a53.png)
 
 <h1></h1>
 
@@ -39,7 +35,8 @@
     </thead>
 </table>
 
+- Como o `cliente A` possui IP fixo, temos que utilizar o intervalo `104.198.107.1 - 104.198.107.126`.
 
-![level02_solved](https://user-images.githubusercontent.com/83036509/200188824-e35810fb-710a-465c-92bc-c07609bbf625.png)
+![level03_solved](https://user-images.githubusercontent.com/83036509/200192865-84393901-7a6a-4bb2-b338-fdb1f9888b5c.png)
 
 
