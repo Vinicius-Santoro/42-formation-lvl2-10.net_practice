@@ -35,7 +35,7 @@
     </thead>
 </table>
 
-- Como o `cliente A` possui IP fixo, temos que utilizar o intervalo `113.210.111.129 - 113.210.111.254`. Porém, como a `interface R3` possui máscara `255.255.255.192`, o intervalo que temos de hosts disponíves agora é de `113.210.111.129 - 113.210.111.192`
+- Como o `cliente A` possui IP fixo, temos que utilizar o intervalo `113.210.111.129 - 113.210.111.254`. Porém, como a `interface R3` possui máscara `255.255.255.192`, o intervalo que temos de hosts disponíves agora é de `113.210.111.129 - 113.210.111.191`
 
 ![level04_solved](https://user-images.githubusercontent.com/83036509/200193522-ad4f4451-258d-4916-9637-07a85f1131e9.png)
 
