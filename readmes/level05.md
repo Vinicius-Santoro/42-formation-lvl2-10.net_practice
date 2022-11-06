@@ -6,9 +6,9 @@
 
 ### _This is `level 05`:_
 
+![level05_unsolved](https://user-images.githubusercontent.com/83036509/200198437-ef1f8fc5-930c-4034-9f9f-6715b8a66b0a.png)
 
 <h1></h1>
-
 
 ### _Goal 1: Machine A need to communicate with The Mighty Router._
 - O que podemos fazer inicialmente, é colocar a `interface A1` com a mesma máscara da `interface R1`.
@@ -77,5 +77,7 @@
 
 - Configuramos o `gateway` com o próximo ponto do cliente, neste caso, o IP da `interface R2`.
 - O default tem a funcionalidade de 'a partir deste dispositivo'.
+
+![level05_solved](https://user-images.githubusercontent.com/83036509/200198397-99ecbba8-e6a6-4fbc-9872-f68c6bce4552.png)
 
 
