@@ -55,7 +55,7 @@
   
 </div>
 
-- Antes de continuar os objetivos, coloquei as `interfaces R13 e R2` no IP de rede `117.229.18`. E também, alterei o apontamento do `router R2` para `117.229.18.254`.
+- Antes de continuar os objetivos, coloquei as `interfaces R13 e R2` no IP de rede `117.229.18`. E também, alterei o apontamento do `router R2` para `117.229.18.254` e o apontamento do `router R1` para .`117.229.18.253`.
 
 ### _Goal 3: meson need to communicate with Internet._
 
