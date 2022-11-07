@@ -13,7 +13,7 @@
 ### _Goal 1:  meson need to communicate with ion._
 - O que podemos fazer inicialmente, é deixar todas as máscaras iguais da `interface R11`. 
 - Utilizei o IP `200.100.10` para as `interfaces A1`, `B1` e `R11`.
-- Configurei o `gateway` co cliente `A` e `B` com o IP da `interface R11`.
+- Configurei o `gateway` do cliente `A` e `B` com o IP da `interface R11`.
 - Para sabermos o intervalo de cada subrede, precisamos calcular o salto, que é (256 - (octeto misto)). Ou seja, 256 - 128 = 128.
 - Há duas redes possíveis para o IP `200.100.10.*`.
 
