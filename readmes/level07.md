@@ -66,4 +66,3 @@
 - Na `interface R22` e `interface C1`, podemos utilizar IP's dos intervalos disponíveis da tabela de hosts. No caso, utilizei o intervalo `91.198.14.65 - 91.198.14.126`.
 
 ![level07_solved](https://user-images.githubusercontent.com/83036509/200404408-c05510ed-f94e-45ef-8746-5ffc7dbfd731.png)
- 
