@@ -15,6 +15,7 @@
 - Para sabermos o intervalo de cada subrede, precisamos calcular o salto, que é (256 - (octeto misto)). Ou seja, 256 - 192 = 64.
 - Há quatro redes possíveis para o IP `91.198.14.1.*`.
 
+<center>
 <table>
     <thead>
         <tr align="center">
@@ -44,6 +45,7 @@
         </tr>
     </thead>
 </table>
+</center>
 
 - No `gateway` do `cliente A`, configuraremos o IP com o próximo ponto do cliente, neste caso, o IP da `interface R11: 91.198.14.1`. O default tem a funcionalidade de 'a partir deste dispositivo'.
 - Na `interface A1`, podemos colocar qualquer IP no intervalor de `91.198.14.1 - 91.198.14.62`, excluindo o IP `91.198.14.1`, pois ele já está sendo usado.
