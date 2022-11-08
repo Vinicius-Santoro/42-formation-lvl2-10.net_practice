@@ -16,20 +16,13 @@
 todas as redes, hosts e broadcasts possíveis.
 - Para sabermos o intervalo de cada subrede, precisamos calcular o salto, que é (256 - (octeto misto)). Como não há octeto misto, essa rede possui um único intervalo, sendo de 1, até 254.
 
-<table>
-    <thead>
-        <tr>
-            <td align="center">Rede</td>
-            <td align="center">Host</td>
-            <td align="center">Broadcast</td>
-        </tr>
-        <tr>
-            <td align="center">104.96.23.0</td>
-            <td align="center">104.96.23.1 até 104.96.23.254</td>
-            <td align="center">104.96.23.255</td>
-        </tr>
-    </thead>
-</table>
+<div align="center">
+    
+| Rede       |      Host     |  Broadcast |
+|:----------:|:-------------:|:----------:|
+|104.96.23.0|104.96.23.1 - 104.96.23.254|104.96.23.255
+    
+</div>
 
 <h1></h1>
 
@@ -38,19 +31,13 @@ todas as redes, hosts e broadcasts possíveis.
 - A interface C1 possui o IP 211.191.`126.75`, com isso podemos gerar a tabela de
 todas as redes, hosts e broadcasts possíveis.
 - Para sabermos o intervalo de cada subrede, precisamos calcular o salto, que é (256 - (octeto misto)). Como não há octeto misto, essa rede possui um único intervalo, sendo de 0.1, até 255.254.
-<table>
-    <thead>
-        <tr>
-            <td align="center">Rede</td>
-            <td align="center">Host</td>
-            <td align="center">Broadcast</td>
-        </tr>
-        <tr>
-            <td align="center">211.191.0.0</td>
-            <td align="center">211.191.0.1 até 211.191.255.254</td>
-            <td align="center">211.191.255.255</td>
-        </tr>
-    </thead>
-</table>
+
+<div align="center">
+    
+| Rede       |      Host     |  Broadcast |
+|:----------:|:-------------:|:----------:|
+|211.191.0.0|211.191.0.1 - 211.191.255.254|211.191.255.255
+    
+</div>
 
 ![level01_solved](https://user-images.githubusercontent.com/83036509/200187248-16a74205-b3de-48ef-817b-c772b1eb6e00.png)
