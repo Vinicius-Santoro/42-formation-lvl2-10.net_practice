@@ -6,7 +6,7 @@
 
 ### _This is `level 10`_
 
-### _Task_
+![level10_unsolved](https://user-images.githubusercontent.com/83036509/200459985-895256a1-42ea-4cef-9627-a0e180d0daf2.png)
 
 <h1></h1>
 
@@ -77,7 +77,5 @@
 
 - O host já estão comunicado na internet por conta do IP de rede `router R1`.
 
-
-![level09_solved](https://user-images.githubusercontent.com/83036509/200429429-f8c3b8e7-4b35-4f48-a940-d07523527173.png)
-
+![level10_solved](https://user-images.githubusercontent.com/83036509/200460017-e8a9231e-d7eb-483f-8bb0-078c9f14314f.png)
 
