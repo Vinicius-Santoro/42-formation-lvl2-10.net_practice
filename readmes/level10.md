@@ -55,35 +55,28 @@
   
 </div>
 
-- Deixei o IP da `interface C1` e `interface R22` com a rede `11.0.0`.
-- Para sabermos o intervalo de cada subrede, precisamos calcular o salto, que é (256 - (octeto misto)). Ou seja, 256 - 0 = 0.
-- Há uma rede possível para o IP `11.0.0.*/24`.
+### _Goal 3: Host one need to communicate with Internet._
 
-<div align="center">
-    
-| Rede       |      Host     |  Broadcast |
-|:----------:|:-------------:|:----------:|
-| 	11.0.0.0| 11.0.0.1 - 11.0.0.254|	11.0.0.255
-  
-</div>
+- Alteramos a máscara da `interface R13` para `255.255.255.252`. Isso já resultará na comunicação com o outro roteador.
+- No `gateway` da `internet`, apenas coloquei o IP de rede `161.216.219.0/24`.
+- A máscara no `gateway` da `internet` pode ser no intervalo de `0 até 24`. Porque o `/25` é a menor máscara usada, restringindo nosso intervalo.
 
-- Antes de continuar os objetivos, coloquei as `interfaces R13 e R2` no IP de rede `117.229.18`. E também, alterei o apontamento do `router R2` para `117.229.18.254` e o apontamento do `router R1` para .`117.229.18.253`.
+### _Goal 4: Host one need to communicate with Host four._
 
-### _Goal 3: meson need to communicate with Internet._
+- No `gateway` do `router R1`, coloquei o IP de rede `161.216.219.0/24`, referente ao `gateway` da `internet`. Eles devem ser iguais, respeitando o intervalo de `0 até 24.
 
-- No `gateway` da `internet`, apenas coloquei o IP de rede `200.100.10.0/25`.
+### _Goal 5: Host two need to communicate with Host three._
 
-### _Goal 4: meson need to communicate with gluon._
+- Os dois hosts já estão comunicados por conta do IP de rede `router R1`.
 
-- No `gateway` do `router R1`, coloquei o IP de rede `75.85.129.0/18` e apontamento para `117.229.18.253`.
+### _Goal 6: Host three need to communicate with Internet._
 
-### _Goal 5: ion need to communicate with cation._
+- O host já estão comunicado na internet por conta do IP de rede `router R1`.
 
-- No `gateway` do `router R1`, coloquei o IP de rede `11.0.0.0/24` e apontamento para `117.229.18.253`.
+### _Goal 7: Host four need to communicate with Internet._
 
-### _Goal 6: cation need to communicate with Internet._
+- O host já estão comunicado na internet por conta do IP de rede `router R1`.
 
-- No `gateway` da `internet`, apenas coloquei o IP de rede `11.0.0.0/24`.
 
 ![level09_solved](https://user-images.githubusercontent.com/83036509/200429429-f8c3b8e7-4b35-4f48-a940-d07523527173.png)
 
