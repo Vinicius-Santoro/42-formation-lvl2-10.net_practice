@@ -13,27 +13,16 @@
 - O que podemos fazer inicialmente, é deixar todos os clientes com a mesma máscara. Ou seja, todos os clientes terão a máscara de classe C `255.255.255.128`.
 - A `inteface A1` possui o endereço de rede `113.210.111`, com isso podemos gerar a tabela de todas as redes, hosts e broadcasts possíveis.
 - Para sabermos o intervalo de cada subrede, precisamos calcular o salto, que é (256 - (octeto misto)). Ou seja, 256 - 128 = 128.
-- Há duas redes possíveis para o IP `113.210.111`.
+- Há duas redes possíveis para o IP `113.210.111.*/25`.
 
-<table>
-    <thead>
-        <tr>
-            <td align="center">Rede</td>
-            <td align="center">Host</td>
-            <td align="center">Broadcast</td>
-        </tr>
-        <tr>
-            <td align="center">113.210.111.0</td>
-            <td align="center">113.210.111.1 - 113.210.111.126</td>
-            <td align="center">113.210.111.127</td>
-        </tr>
-         <tr>
-            <td align="center">113.210.111.128</td>
-            <td align="center">113.210.111.129 - 113.210.111.254</td>
-            <td align="center">	113.210.111.255</td>
-        </tr>
-    </thead>
-</table>
+<div align="center">
+
+| Rede       |      Host     |  Broadcast |
+|:----------:|:-------------:|:----------:|
+|113.210.111.0|113.210.111.1 - 113.210.111.126|113.210.111.127
+|113.210.111.128|113.210.111.129 - 113.210.111.254|113.210.111.255
+
+</div>
 
 - Como o `cliente A` possui IP fixo, temos que utilizar o intervalo `113.210.111.129 - 113.210.111.254`. Porém, como a `interface R3` possui máscara `255.255.255.192`, o intervalo que temos de hosts disponíves agora é de `113.210.111.129 - 113.210.111.191`
 
