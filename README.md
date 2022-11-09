@@ -22,7 +22,7 @@ Links I used to develop the project
 - [Diferenças entre roteador, switch, modem e hub](https://www.infowester.com/hubswitchrouter.php)
 - [Introdução de endereçamento IP classful](https://acervolima.com/introducao-de-enderecamento-ip-classful-1/#:~:text=tem%208%20bits.-,Os%20bits%20de%20ordem%20superior%20do%20primeiro%20octeto%20de%20endere%C3%A7os,classe%20C%20%C3%A9%20255.255.255)
 - [Playlist completa Curso de Endereçamento IPV4](https://www.youtube.com/watch?v=0XnjQac4jP8&list=PLAp37wMSBouCU49LV0qFbItufigjYk-sp&ab_channel=HardwareRedesBrasil)
-- [Minhas anotações do Curso de Endereçamento IPV4]()
+- [Minhas anotações do Curso de Endereçamento IPV4](https://github.com/Vinicius-Santoro/42-formation-lvl2-10.net_pratice/blob/main/Document.pdf)
 - [Método de Endereçamento IP baseado nas Classes](https://www.youtube.com/watch?v=Yt_MMkzIiOk&ab_channel=FelipeSoaresdeOliveira)
 - [Entendendo o endereçamento IP](https://www.hardware.com.br/livros/linux-redes/capitulo-entendendo-enderecamento.html)
 - [Subrede IP: máscaras possíveis para classes A, B e C](http://www.dltec.com.br/blog/redes/subrede-ip-mascaras-possiveis-e-quantidades-para-classes-a-b-e-c-curso-ccna/)
