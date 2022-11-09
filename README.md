@@ -32,13 +32,14 @@ Links I used to develop the project
 
 The proposed challenges of the project.
 
-- [level 01](readmes/level01.md)
-- [level 02](readmes/level02.md)
-- [level 03](readmes/level03.md)
-- [level 04](readmes/level04.md)
-- [level 05](readmes/level05.md)
-- [level 06](readmes/level06.md)
-- [level 07](readmes/level07.md)
-- [level 08](readmes/level08.md)
-- [level 09](readmes/level09.md)
-- [level 10](readmes/level10.md)
+- [Level 01](readmes/level01.md)
+- [Level 02](readmes/level02.md)
+- [Level 03](readmes/level03.md)
+- [Level 04](readmes/level04.md)
+- [Level 05](readmes/level05.md)
+- [Level 06](readmes/level06.md)
+- [Level 07](readmes/level07.md)
+- [Level 08](readmes/level08.md)
+- [Level 09](readmes/level09.md)
+- [Level 10](readmes/level10.md)
+
