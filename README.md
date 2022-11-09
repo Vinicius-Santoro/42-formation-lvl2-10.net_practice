@@ -5,7 +5,7 @@ Project 10: net_pratice - Tenth project for the formation of software engineers 
 - This project is a general practical exercise to let discover networking.
 
 ## Sumary
-
+<!--
 #### Necessary concepts
 
 Some necessary concepts to develop this project.
@@ -14,7 +14,7 @@ Some necessary concepts to develop this project.
 - [What is hub?](readmes/necessary_concepts.md)
 - [What is router?](readmes/necessary_concepts.md)
 - [What is switch?](readmes/necessary_concepts.md)
-
+-->
 #### Useful links:
 
 Links I used to develop the project
