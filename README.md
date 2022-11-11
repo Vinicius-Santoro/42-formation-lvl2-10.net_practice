@@ -28,6 +28,10 @@ Links I used to develop the project
 - [Subrede IP: máscaras possíveis para classes A, B e C](http://www.dltec.com.br/blog/redes/subrede-ip-mascaras-possiveis-e-quantidades-para-classes-a-b-e-c-curso-ccna/)
 - [IP subnet calculator](https://www.calculator.net/ip-subnet-calculator.html?cclass=c&csubnet=25&cip=6.120.49.126&ctype=ipv4&printit=0&x=90&y=17)
 
+#### How to see the tasks' explanation
+
+https://user-images.githubusercontent.com/83036509/201232698-641c48a9-9371-481d-b13b-306255a9c42c.mp4
+
 #### Tasks
 
 The proposed challenges of the project.
